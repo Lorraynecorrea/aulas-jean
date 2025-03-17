@@ -1,0 +1,20 @@
+programa {
+  inclua biblioteca Matematica --> m
+  
+  funcao inicio() {
+   "CalculoDelta" 
+   real a, b, c , CalculoDelta
+
+   escreva ("valor de a :")
+   leia (a)
+
+   escreva ("valor de b :")
+   leia (b)
+
+   escreva ( "valor de c:")
+   leia (c)
+
+    CalculoDelta = m . potencia (b,2) - (4 * a * c )
+    "CalculoDelta"
+  }
+}

@@ -1,0 +1,22 @@
+programa {
+  inclua biblioteca Matematica --> Mat
+  funcao inicio() {
+    "CalculoVolumeCilindro"
+    
+    real raio, altura, volume 
+    real PI = 3.141
+
+    escreva ("Escreva o valor do raio:")
+    leia (raio)
+
+    escreva ("Escreva o valor da altura:")
+    leia (altura)
+
+    "CalculoVolumeCilindro"
+    volume <-- PI * (raio * raio) * altura
+
+    escreva ("O volume do cilindro é: ")
+    
+
+  }
+}
