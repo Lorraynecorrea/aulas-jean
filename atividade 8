@@ -1,0 +1,18 @@
+programa { 
+  inclua biblioteca Matematica --> m
+  funcao inicio() {
+
+   "CalculoHipotenusaTrianguloRetangulo" 
+    real co, ca, calculo 
+     
+    escreva ("Escreva o valor do co:")
+    leia (co)
+
+    escreva ("Escreva o valor do ca :")
+    leia (ca)
+
+    calculo = m . raiz ( m. potencia (co,7) + m . potencia (ca,2),2 )
+    escreva (calculo)
+
+  }
+}
